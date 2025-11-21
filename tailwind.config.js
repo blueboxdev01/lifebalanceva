@@ -20,13 +20,13 @@ export default {
         },
         n: {
           1: "#FFFFFF",
-          2: "#CAC6DD",
-          3: "#ADA8C3",
-          4: "#757185",
+          2: "#AD5C96",
+          3: "#0B263D",
+          4: "#052941",
           5: "#3F3A52",
           6: "#252134",
           7: "#15131D",
-          8: "#0E0C15",
+          8: "#11092A",
           9: "#474060",
           10: "#43435C",
           11: "#1B1B2E",
@@ -37,7 +37,7 @@ export default {
       fontFamily: {
         sans: ["var(--font-sora)", ...fontFamily.sans],
         code: "var(--font-code)",
-        grotesk: "var(--font-grotesk)",
+        grotesk: "var(--font-code)",
       },
       letterSpacing: {
         tagline: ".15em",
@@ -67,9 +67,7 @@ export default {
         DEFAULT: "0.0625rem",
       },
       backgroundImage: {
-        "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
-        "conic-gradient":
-          "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
+        "hero-bg": "url('/assets/hero/lbva-bg.png')",
       },
     },
   },
