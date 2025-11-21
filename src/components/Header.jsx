@@ -1,7 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
-import { brainwave } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
@@ -35,8 +34,10 @@ const Header = () => {
         openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
       }`}>
       <div className="w-full lg:w-[80em] lg:mx-auto flex items-center px-5 lg:px-0 xl:px-0 max-lg:py-4 justify-between py-4">
-        <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <img src={brainwave} width={190} height={40} alt="Brainwave" />
+        <a
+          className="block w-[12rem] xl:mr-8 text-2xl lg:text-3xl text-n-1 font-extrabold"
+          href="#hero">
+          LifeBalanceVA
         </a>
 
         <nav
