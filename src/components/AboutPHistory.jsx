@@ -1,9 +1,8 @@
 import aboutBg from "../assets/bgAbout.png";
 import placeholderImg from "../assets/imgPlaceholder.png";
 import { aboutus } from "../constants";
-import Button from "./Button";
 
-const AboutSection = () => {
+const AboutPHistory = () => {
   return (
     <>
       <section
@@ -27,10 +26,10 @@ const AboutSection = () => {
             <div className="flex flex-col gap-4 lg:gap-6 flex-1">
               <div className="flex flex-col gap-2 lg:gap-3.5">
                 <p className="text-n-2 text-lg lg:text-xl tracking-widest uppercase font-bold">
-                  ABOUT LBVA
+                  HOW WE STARTED
                 </p>
                 <h2 className="text-4xl lg:text-5xl text-n-3 font-extrabold">
-                  Transforming Business Through Virtual Excellence
+                  From Humble Beginnings to Industry Leaders
                 </h2>
               </div>
               <p className="text-n-3 text-lg font-medium">
@@ -69,9 +68,7 @@ const AboutSection = () => {
             Ready to transform your business? Let’s Talk{" "}
           </h3>
           <div className="block">
-            <Button className="button" href="#cta-section">
-              Hire a Virtual Assistant Now
-            </Button>
+            <button className="button">Hire a Virtual Assistant Now</button>
           </div>
         </div>
       </section>
@@ -79,4 +76,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default AboutPHistory;

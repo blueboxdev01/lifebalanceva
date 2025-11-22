@@ -1,6 +1,7 @@
 import serviceBg from "../assets/serviceBg.png";
 import starsImg from "../assets/starImages.png";
 import { testimonials } from "../constants";
+import Button from "./Button";
 
 const TestimonialSection = () => {
   return (
@@ -49,7 +50,9 @@ const TestimonialSection = () => {
           ))}
         </div>
         <div className="block">
-          <button className="button">Book a Consultation Now</button>
+          <Button className="button" href="#cta-section">
+            Book a Consultation Now
+          </Button>
         </div>
       </div>
     </section>

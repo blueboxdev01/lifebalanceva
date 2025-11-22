@@ -6,7 +6,8 @@ const CTASection = () => {
   return (
     <section
       className="hero-bg bg-cover bg-center flex items-center w-full p-4 lg:p-0 pb-0 lg:pb-20"
-      style={{ backgroundImage: `url(${herobgImg})`, backgroundSize: "cover" }}>
+      style={{ backgroundImage: `url(${herobgImg})`, backgroundSize: "cover" }}
+      id="cta-section">
       <div className="w-full lg:w-[80em] lg:mx-auto flex flex-col-reverse lg:flex-row py-2 pb-0 lg:py-20 lg:pb-0 gap-10 items-end">
         <div>
           <img

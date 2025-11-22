@@ -1,6 +1,7 @@
 import hiringBg from "../assets/bg-2-down.png";
 import briefIcon from "../assets/briefIcon.png";
 import hpIcon from "../assets/hpIcon.png";
+import Button from "./Button";
 
 const Hiring = () => {
   return (
@@ -29,7 +30,9 @@ const Hiring = () => {
               </p>
             </div>
             <div className="block">
-              <button className="button">Hire a Virtual Assistant</button>
+              <Button className="button" href="#cta-section">
+                Hire a Virtual Assistant
+              </Button>
             </div>
           </div>
           <div className="flex flex-col gap-4 lg:gap-8 bg-[#03293D]/60 border border-[#03293D]/40 rounded-lg p-6">
@@ -44,7 +47,9 @@ const Hiring = () => {
               </p>
             </div>
             <div className="block">
-              <button className="button">Join as a Virtual Assistant</button>
+              <Button className="button" href="#cta-section">
+                Join as a Virtual Assistant
+              </Button>
             </div>
           </div>
         </div>

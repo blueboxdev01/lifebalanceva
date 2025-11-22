@@ -9,6 +9,7 @@ import { useState } from "react";
 
 const Header = () => {
   const pathname = useLocation();
+
   const [openNavigation, setOpenNavigation] = useState(false);
 
   const toggleNavigation = () => {
@@ -36,7 +37,7 @@ const Header = () => {
       <div className="w-full lg:w-[80em] lg:mx-auto flex items-center px-5 lg:px-0 xl:px-0 max-lg:py-4 justify-between py-4">
         <a
           className="block w-[12rem] xl:mr-8 text-2xl lg:text-3xl text-n-1 font-extrabold"
-          href="#hero">
+          href="/">
           LifeBalanceVA
         </a>
 
@@ -58,7 +59,7 @@ const Header = () => {
                 {item.title}
               </a>
             ))}
-            <Button className="hidden lg:flex" href="#login">
+            <Button className="hidden lg:flex" href="#cta-section">
               Contact Us
             </Button>
           </div>

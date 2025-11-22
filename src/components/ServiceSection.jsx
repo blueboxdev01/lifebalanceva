@@ -2,6 +2,7 @@ import aboutBg from "../assets/bgAbout.png";
 import placeholderImg from "../assets/imgPlaceholder.png";
 import servicebg from "../assets/serviceBg.png";
 import { services } from "../constants";
+import Button from "./Button";
 
 const ServiceSection = () => {
   return (
@@ -81,7 +82,9 @@ const ServiceSection = () => {
             ))}
           </div>
           <div className="block">
-            <button className="button">Book a Consultation Now</button>
+            <Button className="button" href="#cta-section">
+              Book a Consultation Now
+            </Button>
           </div>
         </div>
       </section>

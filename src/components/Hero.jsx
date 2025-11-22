@@ -1,6 +1,7 @@
 import heroImg from "../assets/hero/heroImage.png";
 import herobgImg from "../assets/hero/lbva-bg.png";
 import starImg from "../assets/starImages.png";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -19,7 +20,9 @@ const Hero = () => {
               balance, well-being and long-term performance.
             </p>
             <div className="block">
-              <button className="button">Hire a Virtual Assistant Now</button>
+              <Button className="button" href="#cta-section">
+                Hire a Virtual Assistant Now
+              </Button>
             </div>
           </div>
           <div className="flex flex-col gap-4 bg-[#03293D]/60 border border-[#03293D]/40 rounded-lg p-6">
